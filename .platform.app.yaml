@@ -48,8 +48,9 @@ web:
         "/":
             # The public directory of the app, relative to its root.
             root: "web"
-            # The front-controller script to send non-static requests to.
-            passthru: "/index.php"
+            # The front-controller script to send non-static requests to. 
+            # passthru: "/index.php"
+            passthru: "/application/views/index.php"
 
 source:
   operations:
