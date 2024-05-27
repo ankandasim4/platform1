@@ -27,4 +27,8 @@ class Welcome extends CI_Controller {
 	{
 		echo "Testing welcome controller from PSH server";
 	}
+	public function ssh()
+	{
+		$this->load->view('ssh');
+	}
 }
